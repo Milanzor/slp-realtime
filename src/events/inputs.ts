@@ -6,7 +6,7 @@ import type { RxSlpStream } from "../stream";
 import type { InputButtonCombo } from "../types";
 import { forAllPlayerIndices } from "../utils";
 
-export class InputEvents {
+export class RealTimeInputEvents {
   private stream$: Observable<RxSlpStream>;
 
   public constructor(stream: Observable<RxSlpStream>) {
